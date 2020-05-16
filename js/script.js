@@ -50,3 +50,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+// before start website loadere program in jquery  
+  $(window).load(function() {
+      $("#loader").fadeOut(6000);
+  });
+
